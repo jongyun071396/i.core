@@ -1,3 +1,6 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 div.container.prf{
 	padding-left: 30px;
 }
@@ -31,8 +34,58 @@ h3{
 div.row.p-4{
 	background-color: rgba(10, 10, 10, 0.06);
 }
-.panel.panel-default>.panel-heading {
-    color: rgb(51, 51, 51);
-    background-color: #f5f5f5;
-    border-color: #ddd;
+.card{
+	margin-bottom: 20px;
+}
+.ghost-button {
+ color: rgb(232, 105, 0);
+ background: #fff;
+ border: 2px solid rgb(232, 105, 0);
+ font-size: 17px;
+ padding: 7px 12px;
+ font-weight: 600;
+ margin: 6px 0;
+ margin-right: 12px;
+ display: inline-block;
+ text-decoration: none;
+ transition:300ms ease-in-out all;
+ 
+ min-width: 120px;
+}
+.ghost-button:hover, .ghost-button:active {
+ color:#ffffff;
+ text-decoration: none;
+ background:rgb(232, 105, 0);
+}
+
+#w{
+	width:550px;
+
+}
+#imaginary_container{
+    margin-top:20%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.search{
+	border:none;
+}
+.search:hover{
+	size:10px;
+}
+
+.overlay{
+	background-color: rgba(0, 0, 0, 0.52) !important;
+	width: 100%;
+	height: 100%;
 }
